@@ -27,6 +27,7 @@ export default function App() {
     <MenuProvider>
       <StatusBar barStyle="dark-content" backgroundColor={"#fff"} />
       <Feeds> Oi Aqui é a tela Inicial </Feeds>
+      <Text> Aqui temos que mostrar os feeds</Text>
     </MenuProvider>
   )
 }
