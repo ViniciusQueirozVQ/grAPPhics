@@ -2,6 +2,7 @@ import React from "react";
 import { View, FlatList } from "react-native";
 import FeedCard from "../../components/FeedCard";
 import bancoEstatico from "../../assets/feeds.json";
+import { Searchbar } from "react-native-paper";
 const FEEDS_POR_PAGINA = 4;
 
 export default class Feeds extends React.Component {
@@ -98,6 +99,10 @@ export default class Feeds extends React.Component {
     render = () => {
         return (
             <>
+                <Searchbar
+                    placeholder="Digite aqui uma placa de video"
+                    value={()=>{}}
+                />
                 {/* <Header
                     leftComponent={<></>}
 
