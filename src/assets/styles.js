@@ -1,4 +1,4 @@
-import styled from "styled-components/native";
+import styled from 'styled-components';
 
 export const ImagemGPU = styled.Image`
     padding: 4px;
@@ -15,33 +15,48 @@ export const LogoFabricanteGPU = styled.Image`
 
 export const NomePlaca = styled.Text`
     padding: 8px;
-    font-size: 16;
+    font-size: 16.0;
     color: #59594a;
 `;
 
 export const NomeFabricanteProjeto = styled.Text`
-    font-size: 16;
+    font-size: 16.0;
     font-weight: bold;
     color: #59594a;
 `;
 
 export const NomeFabricanteGPU = styled.Text`
-    font-size: 14;
+    font-size: 14.0;
     color: #59594a;
 `;
 
 export const ValorPrazo = styled.Text`
-    font-size: 14;
+    font-size: 14.0;
     font-weight: bold;
     color: #59594a;
 `;
 
 
 export const ValorAVista = styled.Text`
-    font-size: 14;
+    font-size: 14.0;
     font-weight: bold;
     color: #59594a;
 `;
+
+export const FlexContentorLinha = styled.View`
+    flexDirection: row;
+`;
+export const FlexContentorColuna = styled.View`
+    flexDirection: column;
+`;
+
+export const SingleFlex = styled.View`
+    flex: 1;
+`;
+export const DoubleFlex = styled.View`
+    flex: 2;
+`;
+
 
 
 

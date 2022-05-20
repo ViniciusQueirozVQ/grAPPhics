@@ -9,41 +9,16 @@ import Detalhes from "./src/screens/Detalhes";
 
 const Stack = createStackNavigator();
 
-function TelaHome({ navigation }) {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Tela Canal</Text>
-      <Text>Youtube Tela</Text>
-
-      <Button
-        title="Detalhes"
-        onPress={() => navigation.navigate('Detalhes')}
-      />
-
-      <Button
-        title="Feeds"
-        onPress={() => navigation.navigate('Feeds')}
-      />
-
-    </View>
-  );
-}
-
 export default function App() {
   return (
     <MenuProvider>
-      <StatusBar barStyle="dark-content" backgroundColor={"#fff"} />
+      <StatusBar barStyle="dark-content" backgroundColor={"#fff"}>Oi</StatusBar>
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="Home">
-          <Stack.Screen
-            name="Home"
-            component={TelaHome}
-            options={{ title: 'Tela de Home' }}
-          />
+        <Stack.Navigator initialRouteName="Feeds">
           <Stack.Screen
             name="Feeds"
             component={Feeds}
-            options={{ title: 'Tela de Feeds' }}
+            options={{ title: 'Tela de Feeds'}}
           />
           <Stack.Screen
             name="Detalhes"

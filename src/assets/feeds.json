@@ -51,6 +51,32 @@
                     }
                 ]
             }
+        },
+        {
+            "_id": 3,
+            "datetime": "2022-03-01T12:03-0500",
+            "manufacturer": {
+                "name": "Nvidia",
+                "logo": "logo_nvidia.svg"
+            },
+            "product": {
+                "name": "GTX 1650",
+                "manufacturer_project": "Asus",
+                "description": "PLACA DE VIDEO ASUS GEFORCE GTX 1650 TUF GAMING 4GB DDR6",
+                "full_price_in_cash": 2352.82,
+                "full_price_in_installments": 1999.90,
+                "url_purchase": "https://www.amazon.com.br/PLACA-VIDEO-ASUS-GEFORCE-GAMING/dp/B08F2KZM8X",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "GTX_1650_NVIDIA_Asus_01.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "GTX_1650_NVIDIA_Asus_02.jpg"
+                    }
+                ]
+            }
         }
     ]
 }
